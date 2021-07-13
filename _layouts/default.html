@@ -11,6 +11,38 @@
     <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAfYArHtSrTD89kdmxA5h_WV8RP4IpsrQ&callback=initMap&region=kr"></script> -->
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=eb31ve5cjy"></script>
     <script src="/js/common.js"></script>
+    <script>
+
+    function initMap() {
+        /* 
+        const mapEl = document.getElementById('map');
+        if(mapEl) {
+            var center = { lat: 37.300377, lng:127.070718};
+            var map = new google.maps.Map(
+            document.getElementById('map'), {
+                zoom: 15,
+                center: center
+            });
+            new google.maps.Marker({
+                position: center,
+                map,
+            });
+        } */
+
+        var mapOptions = {
+            center: new naver.maps.LatLng(37.300477, 127.07168),
+            zoom: 16
+        };
+
+        var map = new naver.maps.Map('map', mapOptions);
+
+        var marker = new naver.maps.Marker({
+            position: new naver.maps.LatLng(37.300477, 127.07168),
+            map: map
+        });
+            
+    }
+    </script>
     <title>Tware Lab</title>
 </head>
 <body>
