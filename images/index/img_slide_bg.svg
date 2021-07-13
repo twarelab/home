@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 920 1382.85 462.85">
+    <defs>
+        <style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#eee;}</style>
+        <clipPath id="clip-path" transform="translate(2.62 811.93)">
+            <rect class="cls-1" width="1380.23" height="570.91"/>
+        </clipPath>
+    </defs>
+    <g id="레이어_2" data-name="레이어 2">
+        <g id="Layer_1" data-name="Layer 1">
+            <g id="img_slide_bg">
+                <g class="cls-2">
+                    <path class="cls-3" d="M688.81-811.93C307-811.93-2.62-502.37-2.62-120.51S307,570.91,688.81,570.91s691.42-309.56,691.42-691.42S1070.67-811.93,688.81-811.93Zm0,1135.82c-245.44,0-444.41-199-444.41-444.4s199-444.4,444.41-444.4,444.4,199,444.4,444.4S934.25,323.89,688.81,323.89Z" transform="translate(2.62 811.93)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

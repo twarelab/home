@@ -1,0 +1,377 @@
+@charset "UTF-8";
+@import url("variables.less");
+
+.page-wrap {
+    &.portfolio {
+        .page-title {
+            background-image: url("/images/portfolio/img_portfolio_slide.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 0;
+            .content-wrap {
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .section {
+            padding: 77px 0;
+            .title {
+                h1 {
+                    font-size: 40px;
+                    font-weight: 900;
+                    color: @color-font-alter;
+                }
+            }
+            .summary {
+                margin-top: 70px;
+                ul {
+                    padding-left: 20px;
+                    font-size: 22px;
+                    line-height: 2.18;
+                }
+            }
+
+            &.diagram {
+                background-color: #eeeeee;
+            }
+
+            &.spec {
+                .specs {
+                    margin-top: 56px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    .spec-item {
+                        width: 50%;
+                        margin-bottom: 75px;
+                        .item-title {
+                            color: @color-main;
+                            font-size: 18px;
+                            margin-bottom: 25px;
+                        }
+                        .item-content {
+                            .row {
+                                display: flex;
+                                font-size: 18px;
+                                line-height: 2;
+                                .name {
+                                    flex: 0 0 120px;
+                                }
+                                ul.content {
+                                    margin-top: 0;
+                                    // list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAFklEQVQYV2NkwAIYcQn+R5fAqRLDBAA8aQEFEuiyCAAAAABJRU5ErkJggg==);
+                                    padding-left: 24px;
+                                }
+                                .content {
+                                    flex: 1;
+                                    position: relative;
+                                    padding-left: 10px;
+                                    &:before {
+                                        content: ":";
+                                        position: absolute;
+                                        left: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: @content-width) {
+    .page-wrap {
+        &.portfolio {
+            .section {
+                .content-wrap {
+                    padding: 0 30px;
+                }
+                .title {
+                    h1 {
+                    }
+                }
+                .summary {
+                    word-break: keep-all;
+                    ul {
+                    }
+                }
+
+                &.diagram {
+                    .content-wrap {
+                        padding: 0 15px;
+                    }
+                }
+
+                &.spec {
+                    .specs {
+                        .spec-item {
+                            .item-title {
+                            }
+                            .item-content {
+                                .row {
+                                    .name {
+                                    }
+                                    .content {
+                                        &:before {
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .page-wrap {
+        &.portfolio {
+            .section {
+                .content-wrap {
+                    padding: 0 30px;
+                }
+                .title {
+                    h1 {
+                    }
+                }
+                .summary {
+                    word-break: keep-all;
+                    ul {
+                    }
+                }
+
+                &.diagram {
+                    .content-wrap {
+                        padding: 0 15px;
+                    }
+                }
+
+                &.spec {
+                    .specs {
+                        display: block;
+                        .spec-item {
+                            width: 100%;
+                            .item-title {
+                            }
+                            .item-content {
+                                .row {
+                                    .name {
+                                    }
+                                    .content {
+                                        &:before {
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .page-wrap {
+        &.portfolio {
+            .for-pc {
+                display: none;
+            }
+            .for-mobile {
+                display: block;
+            }
+
+            .diagram {
+                .diagram-box {
+                    border-radius: 10px;
+                    background-color: #ffffff;
+                    padding: 30px 20px;
+                    .text-content {
+                        width: 360px;
+                        margin: 0 auto;
+                        .title {
+                            font-weight: 700;
+                            color: @color-main;
+                            font-size: 20px;
+                        }
+                        .content {
+                            ul {
+                                list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAFklEQVQYV2NkwAIYcQn+R5fAqRLDBAA8aQEFEuiyCAAAAABJRU5ErkJggg==);
+                                padding-left: 12px;
+                                li {
+                                    font-size: 14px;
+                                    line-height: 1.8;
+                                }
+                            }
+                        }
+                    }
+                }
+                .image-content {
+                    max-width: 500px;
+                    margin: 0 auto;
+                    &.limit-width {
+                        width: 130px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            .device-test {
+                .diagram {
+                    .image-content {
+                        &.overlap-image {
+                            margin-top: -120px;
+                        }
+                    }
+                }
+            }
+            .remote-device {
+                .diagram {
+                    .diagram-box {
+                        .text-content {
+                            margin-bottom: 40px;
+                        }
+                    }
+                }
+            }
+            .sensor-data {
+                .diagram {
+                    .diagram-box {
+                        .text-content {
+                            margin-top: 40px;
+                        }
+                    }
+                    .image-content {
+                        object {
+                            max-width: 400px;
+                            margin: 0 auto;
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .water-monitoring {
+                .diagram {
+                    .diagram-box {
+                        .text-content {
+                            margin-top: 40px;
+                        }
+                    }
+                    .image-content {
+                        object {
+                            max-width: 400px;
+                            margin: 0 auto;
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .multiport-s2e {
+                .diagram {
+                    .diagram-box {
+                        .text-content {
+                            margin-top: 40px;
+                        }
+                    }
+                    .image-content {
+                        object {
+                            max-width: 400px;
+                            margin: 0 auto;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 750px) {
+    .page-wrap {
+        &.portfolio {
+            .section {
+                padding: 55px 0;
+                .content-wrap {
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .page-wrap {
+        &.portfolio {
+            .section {
+                .title {
+                    overflow-x: hidden;
+                    h1 {
+                        font-size: 30px;
+                        white-space: nowrap;
+                    }
+                }
+                .summary {
+                    margin-top: 15px;
+                    ul {
+                        font-size: 18px;
+                        line-height: 1.56;
+                        li {
+                            margin-top: 1em;
+                            &:first-child {
+                                margin-top: 0;
+                            }
+                        }
+                    }
+                }
+                &.spec {
+                    .specs {
+                        margin-top: 20px;
+                        .spec-item {
+                            margin-bottom: 50px;
+                            .item-title {
+                                font-size: 18px;
+                                margin-bottom: 15px;
+                            }
+                            .item-content {
+                                .row {
+                                    font-size: 14px;
+                                    .name {
+                                        flex: 0 0 90px;
+                                    }
+                                    .content {
+                                        &:before {
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .diagram {
+                .diagram-box {
+                    .text-content {
+                        width: auto;
+                    }
+                }
+            }
+
+            .device-test {
+                .diagram {
+                    .diagram-box {
+                        .text-content {
+                            width: auto;
+                        }
+                    }
+                    .image-content {
+                        &.overlap-image {
+                            margin-top: -23vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

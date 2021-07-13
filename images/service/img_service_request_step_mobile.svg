@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248.75 398.44">
+    <defs>
+        <style>
+        @import url("/css/font.css");
+        .cls-1{fill:#fff;}
+        .cls-2{fill:#eee;}
+        .cls-3{font-size:14px;}
+        .cls-3,.cls-4{fill:#444;font-family:NanumSquareR, NanumSquare;}
+        .cls-4{font-size:18px;}</style>
+    </defs>
+    <g id="레이어_2" data-name="레이어 2">
+        <g id="Layer_1" data-name="Layer 1">
+            <polygon class="cls-1" points="124.37 398.44 222.5 326.36 198.94 326.36 198.94 259.64 49.8 259.64 49.8 326.36 26.25 326.36 124.37 398.44"/>
+            <polygon class="cls-1" points="13.13 210.63 45.5 210.63 45.5 169.28 203.25 169.28 203.25 210.63 235.62 210.63 124.37 292.35 13.13 210.63"/>
+            <path class="cls-2" d="M198.94,173.58v41.35H222.5L124.37,287,26.25,214.93H49.81V173.58H198.94m8.61-8.6H41.2v41.34H0l21.15,15.54,98.13,72.08,5.09,3.75,5.1-3.75,98.12-72.08,21.16-15.54h-41.2V165Z"/>
+            <polygon class="cls-1" points="13.13 122.31 45.5 122.31 45.5 80.96 203.25 80.96 203.25 122.31 235.62 122.31 124.37 204.03 13.13 122.31"/>
+            <path class="cls-2" d="M198.94,85.26v41.35H222.5l-98.13,72.08L26.25,126.61H49.81V85.26H198.94m8.61-8.6H41.2V118H0l21.15,15.54,98.13,72.08,5.09,3.75,5.1-3.75,98.12-72.08L248.75,118h-41.2V76.66Z"/>
+            <polygon class="cls-1" points="13.13 33.98 45.5 33.98 45.5 4.3 203.25 4.3 203.25 33.98 235.62 33.98 124.37 115.71 13.13 33.98"/>
+            <path class="cls-2" d="M198.94,8.6V38.29H222.5l-98.13,72.08L26.25,38.29H49.81V8.6H198.94M207.55,0H41.2V29.68H0L21.15,45.22l98.13,72.08,5.09,3.75,5.1-3.75,98.12-72.08,21.16-15.54h-41.2V0Z"/>
+            <text class="cls-3" transform="translate(90.77 43.76)">테스트 항목                <tspan x="6.37" y="18">방식 협의</tspan>
+            </text>
+            <text class="cls-3" transform="translate(98.89 139.72)">테스트용                <tspan x="-12.1" y="18">SW/JIG 개발</tspan>
+            </text>
+            <text class="cls-3" transform="translate(90.77 231.9)">시험 테스트</text>
+            <text class="cls-4" transform="translate(81.17 332.04)">양산 테스트</text>
+        </g>
+    </g>
+</svg>
