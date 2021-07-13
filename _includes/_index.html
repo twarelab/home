@@ -1,4 +1,4 @@
-<div class="page-wrap index">
+<div class="page-wrap index">    
     <div class="slide">
         <div class="content-wrap">
             <p>
@@ -181,6 +181,18 @@
             </div>
             <div class="map" id="map">
             </div>
+            <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=eb31ve5cjy&amp;submodules=panorama,geocoder,drawing,visualization"></script>
+            <script id="code">
+            var map = new naver.maps.Map('map', {
+                center: new naver.maps.LatLng(37.3595704, 127.105399),
+                zoom: 15
+            });
+            
+            var marker = new naver.maps.Marker({
+                position: new naver.maps.LatLng(37.3595704, 127.105399),
+                map: map
+            });
+            </script>
             <div class="contact-info">
                 <div class="contact-item address">
                     <div class="icon"></div>
