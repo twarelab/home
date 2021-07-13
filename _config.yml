@@ -1,0 +1,52 @@
+# Site
+name: "twareLAB"
+title: "twareLAB"
+headtitle: "NEW TEST EXPERIENCE"
+description: "with IoT Cloud Technology"
+meta_description: "twareLAB homepage"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 12
+baseurl: '/'
+email: ''
+google_analytics: ''
+paginate_path:    "/posts/page:num/"
+permalink:        /:title
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+        
+# Other
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  # html_to_native: true
+  parse_span_html: true
+  input: GFM
+  syntax_highlighter: rouge
+  auto_ids: true
+  toc_levels: 1..3
+#from https://gist.github.com/moon9342/d37bb68b8a51c21d4fe6d1b03dfdfa3e
+# exclude는 Jekyll컴파일 시 destination에 포함될 필요가
+# 없는것들을 명시한다. (node_modules와 필요없는 것들은 제외)
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
+  - node_modules
+  # - assets/css
+  # - assets/images
+#  - _posts/jekyll
+  # - _posts/iot
+  # - _posts/r
+  # - _posts/economy
