@@ -336,6 +336,7 @@ p {
 }
 .body .page-wrap.index .section.contact .map {
   height: 310px;
+  align-items: center;
 }
 .body .page-wrap.index .section.contact .map div {
   z-index: 1 !important;
