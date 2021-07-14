@@ -1,28 +1,26 @@
-window.addEventListener("pageshow", function (event) {
-    const queryParam = Util.getQueryParam();
-    const currentPage = queryParam["page"] ? queryParam["page"] : "index";
+// window.addEventListener("pageshow", function (event) {
+//     const queryParam = Util.getQueryParam();
+//     const currentPage = queryParam["page"] ? queryParam["page"] : "index";
 
-    Util.sendXHRequest("/include/_" + currentPage + ".html", {},
-        function (responseText) {
-            const contentBody = document.getElementById("contentBody");
-            contentBody.insertAdjacentHTML("beforeend", responseText);
-            if (currentPage == "index") {
-                const footer = document.getElementById("footer");
-                footer.classList.add("index");
-                initMap();
+//     Util.sendXHRequest("/include/_" + currentPage + ".html", {},
+//         function (responseText) {
+//             const contentBody = document.getElementById("contentBody");
+//             contentBody.insertAdjacentHTML("beforeend", responseText);
+//             if (currentPage == "index") {
+//                 const footer = document.getElementById("footer");
+//                 footer.classList.add("index");
+//                 initMap();
 
-                if (window.location.hash) {
-                    const mapItem = document.querySelector(window.location.hash);
-                    window.scrollTo(0, mapItem.offsetTop);
-                }
-            }
-        },
-        function () { },
-        "GET"
-    );
-});
-
-
+//                 if (window.location.hash) {
+//                     const mapItem = document.querySelector(window.location.hash);
+//                     window.scrollTo(0, mapItem.offsetTop);
+//                 }
+//             }
+//         },
+//         function () { },
+//         "GET"
+//     );
+// });
 
 const Util = {
     sendXHRequest: function (url, data, onSuccess, onFail, method) {
