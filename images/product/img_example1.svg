@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 635.26 289.24">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #595a5a;
+      }
+
+      .cls-1, .cls-6 {
+        font-size: 14px;
+      }
+
+      .cls-1, .cls-6, .cls-5, .cls-7 {
+        font-family: NanumSquareB, NanumSquare;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-10, .cls-9, .cls-7 {
+        fill: #00bce7;
+      }
+
+      .cls-11 {
+        stroke-width: .75px;
+      }
+
+      .cls-11, .cls-12 {
+        fill: none;
+        stroke: #d2d2d2;
+        stroke-linejoin: round;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        font-family: NanumSquareR, NanumSquare;
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 12px;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        font-size: 34px;
+      }
+
+      .cls-19 {
+        fill: #ebebeb;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-21 {
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-19" x="37.69" y="256.53" width="596.84" height="32.7"/>
+    <path class="cls-12" d="M37.69,217.64H634.53M37.69,178.74H634.53M37.69,139.85H634.53M37.69,100.72H634.53M37.69,61.83H634.53M37.69,22.93H634.53"/>
+    <line class="cls-11" x1="37.69" y1="256.53" x2="634.53" y2="256.53"/>
+    <polygon class="cls-3" points="148.25 198.07 202.87 198.07 202.87 256.53 148.25 256.53 148.25 198.07 148.25 198.07"/>
+    <polygon class="cls-10" points="226.45 61.83 280.84 61.83 280.84 256.53 226.45 256.53 226.45 61.83 226.45 61.83"/>
+    <text class="cls-6" transform="translate(165.3 231.81)"><tspan class="cls-16" x="0" y="0">3</tspan><tspan x="8.58" y="0">K</tspan></text>
+    <text class="cls-6" transform="translate(240.48 159.18)"><tspan class="cls-16" x="0" y="0">10</tspan><tspan x="17.16" y="0">K</tspan></text>
+    <polygon class="cls-3" points="391.39 237.2 446.02 237.2 446.02 256.53 391.39 256.53 391.39 237.2 391.39 237.2"/>
+    <polygon class="cls-10" points="469.36 178.74 523.98 178.74 523.98 256.53 469.36 256.53 469.36 178.74 469.36 178.74"/>
+    <text class="cls-6" transform="translate(410.47 252.61)"><tspan class="cls-16" x="0" y="0">1</tspan><tspan x="8.58" y="0">K</tspan></text>
+    <text class="cls-6" transform="translate(486.61 221.81)"><tspan class="cls-16" x="0" y="0">4</tspan><tspan x="8.58" y="0">K</tspan></text>
+    <text class="cls-4" transform="translate(7.38 261.54)"><tspan x="0" y="0">0</tspan></text>
+    <text class="cls-4" transform="translate(7.38 222.59)"><tspan x="0" y="0">2</tspan></text>
+    <text class="cls-4" transform="translate(7.38 183.64)"><tspan x="0" y="0">4</tspan></text>
+    <text class="cls-4" transform="translate(7.38 144.69)"><tspan x="0" y="0">6</tspan></text>
+    <text class="cls-4" transform="translate(7.38 105.74)"><tspan x="0" y="0">8</tspan></text>
+    <text class="cls-4" transform="translate(.24 66.79)"><tspan class="cls-14" x="0" y="0">1</tspan><tspan class="cls-13" x="7.14" y="0">0</tspan></text>
+    <text class="cls-5" transform="translate(0 27.84)"><tspan class="cls-14" x="0" y="0">1</tspan><tspan x="7.26" y="0">2</tspan></text>
+    <polygon class="cls-2" points="502.42 0 515.66 0 515.66 13.24 502.42 13.24 502.42 0 502.42 0"/>
+    <polygon class="cls-9" points="582.11 0 595.34 0 595.34 13.24 582.11 13.24 582.11 0 582.11 0"/>
+    <text class="cls-4" transform="translate(525.53 11.14)"><tspan x="0" y="0">기존</tspan></text>
+    <text class="cls-4" transform="translate(605.84 11.23)"><tspan class="cls-17" x="0" y="0">t</tspan><tspan class="cls-20" x="4.69" y="0">e</tspan><tspan class="cls-8" x="11.21" y="0">s</tspan><tspan class="cls-17" x="17.04" y="0">t</tspan><tspan class="cls-15" x="21.73" y="0">X</tspan></text>
+    <text class="cls-1" transform="translate(194.68 277.24)"><tspan x="0" y="0">제품 A</tspan></text>
+    <text class="cls-1" transform="translate(440 277.24)"><tspan x="0" y="0">제품 B</tspan></text>
+    <text class="cls-7" transform="translate(389.93 170.06)"><tspan class="cls-21" x="0" y="0">생산성 </tspan><tspan class="cls-18" x="53.64" y="0">4</tspan><tspan class="cls-21" x="74.38" y="0">배 증가</tspan></text>
+    <text class="cls-7" transform="translate(147.23 52.26)"><tspan class="cls-21" x="0" y="0">생산성 </tspan><tspan class="cls-18" x="53.64" y="0">3</tspan><tspan class="cls-21" x="74.38" y="0">배 증가</tspan></text>
+    <g>
+      <path class="cls-10" d="M175.56,198.07c2.03-1.73,3.97-3.56,5.93-5.36,1.85-1.92,3.74-3.79,5.43-5.84,3.44-4.04,6.6-8.31,9.25-12.88,2.67-4.56,4.98-9.3,6.83-14.22,1.82-4.93,3.22-9.99,4.2-15.12,.98-5.13,1.41-10.35,1.49-15.53l-.02-3.9-.12-4-.24-8-.98-32.01h7.82l-.98,32.01-.24,8-.12,4-.23,4.1c-.41,5.46-1.21,10.89-2.55,16.17-1.35,5.28-3.13,10.44-5.31,15.4-2.22,4.95-4.89,9.67-7.9,14.15-2.98,4.5-6.46,8.64-10.18,12.5-1.83,1.96-3.85,3.73-5.82,5.54-2.08,1.69-4.13,3.4-6.26,5Z"/>
+      <polygon class="cls-10" points="224.7 85.14 211.24 61.83 197.78 85.14 224.7 85.14"/>
+    </g>
+    <g>
+      <path class="cls-10" d="M419.71,237.2l6.62-2.75c2.19-.93,4.46-1.79,6.54-2.8,4.19-2.05,7.88-4.98,10.79-8.47,2.93-3.48,5.06-7.55,6.3-11.81,.61-2.13,1.01-4.31,1.16-6.5,.19-2.21,.03-4.27-.12-6.75h6.6c-.14,2.29-.25,5.01-.77,7.53-.48,2.54-1.23,5.02-2.22,7.38-1.98,4.72-4.91,8.97-8.56,12.41-3.63,3.45-7.94,6.09-12.55,7.73-2.33,.81-4.61,1.38-6.91,2.06l-6.89,1.98Z"/>
+      <polygon class="cls-10" points="467.76 202.06 454.3 178.74 440.83 202.05 467.76 202.06"/>
+    </g>
+  </g>
+</svg>

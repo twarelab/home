@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.26 54.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00bce7;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M64.26,54.24H0V8.93H64.26V54.24ZM2.93,51.31H61.33V11.86H2.93V51.31Z"/>
+      <path class="cls-1" d="M64.26,11.86H0V0H64.26V11.86ZM2.93,8.93H61.33V2.93H2.93v6Z"/>
+      <g>
+        <rect class="cls-1" x="42.1" y="4.47" width="3.48" height="2.93"/>
+        <rect class="cls-1" x="48.39" y="4.47" width="3.48" height="2.93"/>
+        <rect class="cls-1" x="54.67" y="4.47" width="3.48" height="2.93"/>
+      </g>
+      <g>
+        <polygon class="cls-1" points="46.68 26.1 43.75 26.1 43.75 19.96 37.62 19.96 37.62 17.04 46.68 17.04 46.68 26.1"/>
+        <polygon class="cls-1" points="46.68 46.14 37.62 46.14 37.62 43.21 43.75 43.21 43.75 37.07 46.68 37.07 46.68 46.14"/>
+        <polygon class="cls-1" points="26.64 46.14 17.58 46.14 17.58 37.07 20.51 37.07 20.51 43.21 26.64 43.21 26.64 46.14"/>
+        <polygon class="cls-1" points="20.51 26.1 17.58 26.1 17.58 17.04 26.64 17.04 26.64 19.96 20.51 19.96 20.51 26.1"/>
+        <g>
+          <path class="cls-1" d="M30.96,30.41h-8.63v-8.63h8.63v8.63Zm-5.7-2.93h2.77v-2.77h-2.77v2.77Z"/>
+          <path class="cls-1" d="M41.93,30.41h-8.62v-8.63h8.62v8.63Zm-5.7-2.93h2.77v-2.77h-2.77v2.77Z"/>
+          <path class="cls-1" d="M30.96,41.39h-8.63v-8.63h8.63v8.63Zm-5.7-2.93h2.77v-2.77h-2.77v2.77Z"/>
+          <rect class="cls-1" x="36.12" y="35.61" width="3" height="2.93"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
